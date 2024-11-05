@@ -1,0 +1,15 @@
+Metadatos
+```{r}
+sample_info<-data.frame(
+  SUBJECTS = data_values$SUBJECTS,
+  SURGERY = data_values$SURGERY,
+  AGE = data_values$AGE,
+  GENDER = data_values$GENDER,
+  Group = data_values$Group
+)
+```
+
+```{r}
+metadata<-DataInfo_S013[,-1]
+```
+
